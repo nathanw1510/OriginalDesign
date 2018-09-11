@@ -32,21 +32,21 @@ void red()
 {
   noStroke();
   fill(204,0,51);
-  arc(200,200,100,100,0,TWO_PI, PIE);
+  arc(200,200,100,100,0,TWO_PI);
 }
 
 void green()
 {
   noStroke();
   fill(1,153,52);
-  arc(200, 200, 100, 100, 0, PI+QUARTER_PI,PIE);
+  arc(200, 200, 100, 100, 0, PI+QUARTER_PI);
 }
 
 void yellow()
 {
   noStroke();
   fill(253,210,10);
-  arc(200, 200, 100, 100, 0, HALF_PI,PIE);
+  arc(200, 200, 100, 100, 0, HALF_PI);
   arc(200,200,100,100,6,7);
 }
 
